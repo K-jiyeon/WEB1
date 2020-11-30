@@ -5,86 +5,35 @@
     <meta charset="UTF-8">
 </head>
 
- <style>
-  
-  body{
-      margin:0;
-  }
-     h1{
-        font-size:60px;
-         color:rgb(116, 114, 114);
-         border-bottom: 1px solid black;
-         padding:10px;
-         margin:0;
-        
-     }
-     a{
-         text-decoration:none;
-     }
-    a:link{
-        color:black;
+ <link rel="stylesheet" href="style.css">
+<style>
+    .sujin{
+        position: absolute;
+        left: 1500px;
+        top: 180px;
     }
-     a:visited{
-         color:rgb(255, 147, 165);
-     }
-     
-     a:hover, a:active{
-         color:pink;
-     }
-    
-    
-#grid ol{
-    border-right: 1px solid gray;
-   width: 300px;
-    padding: 20px;
-    margin: 0;
-    
-}
-
-
- 
- #grid{
-     display: grid;
-     grid-template-columns: 1fr 3fr;
-     margin: 0px;
-     padding-left: 5px;
-     
- }
- #article{
-     padding-left: 10px;
- }
-
-
-@media(max-width:800px){
-    #grid{
-        display: block;
-    }
-    #grid ol{
-        border-right: none;
-    }
-}
-
- 
- </style>
+</style>
 <body>
 
-    <div style="text-align:center;"><h1>슈징닷컴</h1></div><br><br>
-    
-        <img src="sujin.jpg" align="right" width="200" hspace="50" vspace="0" >
+    <div style="text-align:center;"><h1><a href="index.html">슈징닷컴</a></h1></div>
 
-<div id="grid">
-        <ol>
-            <li><a href="1.html" style="font-size:30px;"> 박수진은 누구인가</a></li>
-            <li><a href="2.html" style="font-size:30px;">나에게 수진이란</a></li>
-            <li><a href="3.html" style="font-size:30px;">수진에게 하고싶은 말</a></li>
-            <li><a href="4.html" style="font-size:30px;">바라만 보고있어도</a></li>
-        </ol>  
+
+
+<div id="menu">
+    <ul>
+        <li><a href="1.html" style="font-size:20px;"> 박수진은 누구인가</a></li>   
+        <li><a href="2.html" style="font-size:20px;">나에게 수진이란</a></li>
+        <li><a href="3.html" style="font-size:20px;">수진에게 하고싶은 말</a></li>
+        <li><a href="4.html" style="font-size:20px;">바라만 보고있어도</a></li>
+    </ul>
+</div>       
+
+<div class="sujin" > 
+<img src="sujin.jpg" width="200">
+</div>
         
 
-
-        
-
-    <div id="article">
+ 
     <p>
        <p style="font-size:30px;"><strong>[박수진에 관한 고찰]</strong></p>
         <u>2020년 11월 23일 오후 5시 57분</u>. <strong>박수진</strong>은 <strong>윤수호</strong>와 통화를 하고있다.
@@ -93,16 +42,13 @@
         <br><u>2020년 11월 23일 오후 9시 35분</u>. <strong>박수진</strong>은 펜트하우스를 보러 스카를 떠났다.
         <br>
         <br><u>2020년 11월 25일 오후 9시 02분</u>. <strong>박수진</strong>은 재채기를 했다.
-        <br><u>2020년 11월 25일 오후 9시 51분</u>. <strong>박수진</strong>은 "늦게까지 공부한다면서" <div style="font-size:30px;">갑자기</div> 맥주 마신다고 갔다.
+        <br><u>2020년 11월 25일 오후 9시 51분</u>. <strong>박수진</strong>은 "늦게까지 공부한다면서" <span style="font-size:30px;">갑자기</span> 맥주 마신다고 갔다.
 
         <br>
         <br><u>2020년 11월 28일 오후 2시 05분</u>. <strong>박수진</strong>은 한시까지 온다면서 지각했다.
-
+        <br><u>2020년 11월 30일 오후 2시 25분</u>. 오늘은 11월의 마지막날.. 월요일..
+        <br><u>2020년 11월 30일 오후 9시 22분</u>. <strong>박수진</strong>은 <strong>김지연</strong>과 간맥을 한 후 후식으로 초코쿠키와 나비파이를 먹었다.
     </p>
-    </div>
-</div>
-
-   
 
     <div id="disqus_thread"></div>
 <script>

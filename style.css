@@ -1,0 +1,61 @@
+
+     h1{
+        font-size:60px;
+         color:rgb(116, 114, 114);
+         border-bottom: 1px solid black;
+         padding:10px;
+         margin:0;
+         
+        
+     }
+     a{
+         text-decoration:none;
+         
+     }
+    a:link{
+        color:black;
+    }
+     a:visited{
+         color: rgb(126, 123, 123);
+     }
+     
+     a:hover, a:active{
+         color: rgb(248, 211, 217);
+     }
+    body{
+      margin:0;
+  }
+
+    li{
+        list-style:none;
+    }
+
+    #menu{
+        background: rgb(252, 202, 210);
+      
+        
+    }
+
+    #menu ul{
+        width: 500px;
+        margin: 0 auto;
+        overflow: hidden;
+    } 
+    #menu ul li{
+        float: left;
+        width:25%;
+        height: 100%
+        line-height: 50px;
+        text-align: center;
+        background: rgb(252, 202, 210);
+    }
+
+    #menu ul li a {
+        display: block;
+    }
+
+    #menu ul li a:hover{
+        background: rgb(250, 194, 203);
+        color: rgb(0, 0, 0);
+    }
+    
