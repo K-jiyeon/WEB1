@@ -32,25 +32,16 @@
 
     #menu{
         background: rgb(252, 202, 210);
-      
-        
+        height:50px;
+
     }
 
     #menu ul{
-        width: 500px;
+        width: 800px;
         margin: 0 auto;
-        overflow: hidden;
+        /*overflow: hidden;*/
     } 
-    #menu ul li{
-        float: left;
-        width:25%;
-        height: 100%
-        line-height: 50px;
-        text-align: center;
-        background: rgb(252, 202, 210);
-    }
-
-    #menu ul li a {
+    #menu ul li a{
         display: block;
     }
 
@@ -58,4 +49,57 @@
         background: rgb(250, 194, 203);
         color: rgb(0, 0, 0);
     }
+    #menu .main>li{
+        float: left;
+        width: 25%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background:  rgb(252, 202, 210);
+        position: relative;
+        
+    }
+    #menu .main>li:hover .sub{
+        display:block;
+        padding-left:0px;
+        }
+
+    #menu .main>li a{
+        display: block;
+        
+    }
+
+    #menu .main>li a:hover{
+        background: rgb(255, 178, 191);
+        color:black;
+    }
+
+    #menu .main .sub{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width:800px;
+        display: none;
+        
+        
+      
+    }
+
+    #menu .main .sub li{
+        background: rgb(211, 208, 208);
+    }
+
+    #menu .main .sub li a:hover{
+        background:  rgb(148, 146, 146);
+    }
+    #menu ul li{
+       
+        width:25%;
+        height: 100%;
+        line-height: 50px;
+        text-align: center;
+        background: rgb(252, 202, 210);
+        
+
+  
     
